@@ -18,6 +18,10 @@ function App() {
         <p>{elem && 'elem is true'}</p>
         <p>{element ? 'element is true' : 'element is false'}</p>
         <p>{a+b}</p>
+        <p>
+          {undefined}
+          {null}
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
