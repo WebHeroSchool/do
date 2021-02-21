@@ -1,5 +1,5 @@
 import React from 'react';
 
-InputItem = () => (<input>Ваше новое дело</input>);
+const InputItem = () => (<input placeholder="ваше новое задание"></input>);
 
 export default InputItem;
