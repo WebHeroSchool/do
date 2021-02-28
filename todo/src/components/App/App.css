@@ -1,0 +1,7 @@
+.block {
+   margin:auto;
+   width: 500px;
+}
+.block__title {
+   font-family:  Georgia, cursive; 
+}
