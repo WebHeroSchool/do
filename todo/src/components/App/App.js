@@ -6,9 +6,15 @@ import styles from './App.module.css';
 
 const App = () => { 
       const items = [
-            { value: 'Написать новое приложение'},
-            { value: 'Прописать props'},
-            { value: 'Сделать все дела'}
+            { value: 'Написать новое приложение',
+              isDone: true
+            },
+            { value: 'Прописать props',
+              isDone: false
+            },
+            { value: 'Сделать все дела',
+              isDone: true
+            }
       ];
       return (<div className={styles.block}>
             <h1 className={styles.title}>Важные дела:</h1>
