@@ -2,7 +2,7 @@ import React from 'react';
 import ItemList from '../ItemList/ItemList';
 import InputItem from '../InputItem/InputItem';
 import Footer from '../Footer/Footer';
-import './App.css';
+import styles from './App.module.css';
 
 const App = () => { 
       const items = [
@@ -10,8 +10,8 @@ const App = () => {
             { value: 'Прописать props'},
             { value: 'Сделать все дела'}
       ];
-      return (<div className="block">
-            <h1 className="block__title">Важные дела:</h1>
+      return (<div className={styles.block}>
+            <h1 className={styles.title}>Важные дела:</h1>
             <InputItem />
             <ItemList items = { items } />
             <Footer count = {3} />
