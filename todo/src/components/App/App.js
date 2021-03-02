@@ -4,6 +4,7 @@ import InputItem from '../InputItem/InputItem';
 import Footer from '../Footer/Footer';
 import styles from './App.module.css';
 
+
 const App = () => { 
       const items = [
             { value: 'Написать новое приложение',
