@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer';
 import styles from './App.module.css';
 
 class App extends React.Component {
-  const  items=[
+  items=[
     { value: 'Написать новое приложение',
       isDone: true
     },
@@ -21,7 +21,7 @@ class App extends React.Component {
           <div className={styles.block}>
             <h1 className={styles.title}>Важные дела:</h1>
             <InputItem />
-            <ItemList items = { items } />
+            <ItemList items = { this.items } />
             <Footer count = {3} />
           </div>);
   }
