@@ -1,7 +1,17 @@
-.footer {
+.foter {
    display: flex;
    justify-content: space-between;
 }
 .buton {
    padding: 0px;
+   font-family:  Georgia, cursive;
+   font-size: 0.7rem;
+   width: 122px;
+}
+.box {
+   padding: 3px 9px;
+   width: 100px;
+}
+.group {
+   width: min-content;
 }
