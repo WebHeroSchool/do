@@ -7,8 +7,8 @@ import styles from './ItemList.module.css';
 
 const ItemList = ({ items, onClickDone }) => (<ul className={styles.ul}>
       { items.map(item => ( <li className={styles.li} key={item.value}>
-            <Checkbox onClick={() => onClickDone(item.isDone)} />
-            <Item value={ item.value } isDone={item.isDone} /> 
+            <Checkbox onClick={() => onClickDone(item.id)} />
+            <Item value={ item.value } isDone={ item.isDone } /> 
             <IconButton aria-label="delete">
                   <DeleteIcon />
             </IconButton>
